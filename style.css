@@ -169,7 +169,7 @@ h1{
     font-family: "Roboto", sans-serif;
     font-weight: 900;
     font-style: normal;
-    text-align:center
+    text-align:center;
 }
 .status{
     font-family: "Roboto", sans-serif;
@@ -177,7 +177,7 @@ h1{
     font-style: normal;
     color: rgb(121, 142, 199);
     font-size: 37px;
-    text-align:center
+    text-align:center;
 }
 input:focus {
     outline:none;
@@ -191,4 +191,7 @@ input:focus {
 .develop>p{
     font-size: 10px;
     text-align: center;
+}
+input:focus::placeholder {
+  color: transparent;
 }
