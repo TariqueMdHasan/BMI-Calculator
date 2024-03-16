@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(59, 70, 100, 1);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.main{
+    position: fixed;
+    height: 207px;
+    width: 300px;
+    background: rgba(37, 45, 68, 1);
+    margin-top: 6%;
+    opacity: 0.4;
+    border-radius: 18px;
+    box-shadow:  4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.box{
+    position: fixed;
+    height: 187px;
+    width: 300px;
+    margin-top: 6%;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    color: black;
+    opacity: 1;
+    background: none;
+    margin-top: 2%;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.enteredWeight{
+    background: #fff;
+    position: fixed;
+    height: 32px;
+    width: 202px;
+    margin-top: 36px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.enteredWeight:hover, .enteredHeight:hover{
+    height: 34px;
+    width: 206px;
+    box-shadow:  4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.enteredWeight::placeholder{
+    color: rgba(24, 31, 50, 1);
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    
+    text-align: center;
+}
+.enteredHeight{
+    background: #fff;
+    position: fixed;
+    height: 32px;
+    width: 202px;
+    margin-top: 82px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.enteredHeight::placeholder{
+    color: rgba(24, 31, 50, 1);
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+}
+.calcBtn{
+    background: rgba(24, 31, 50, 1);
+    position: fixed;
+    height: 32px;
+    width: 133px;
+    margin-top: 138px;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.calcBtn:hover{
+    height: 30px;
+    width: 129px;
+    box-shadow:  4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.main1{
+    position: fixed;
+    height: 207px;
+    width: 300px;
+    background: rgba(37, 45, 68, 1);
+    margin-top: 25%;
+    opacity: 0.4;
+    border-radius: 18px;
+    box-shadow:  4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: none;
+}
+.result{
+    position: fixed;
+    height: 207px;
+    width: 285px;
+    margin-top: 25%;
+    border-radius: 18px;
+    display: none;
+}
+.finalScore{
+
+    background-color: transparent;
+    position: fixed;
+    height: 32px;
+    width: 140px;
+    margin-top: 59px;
+    border: none;
+    border-radius: 0px;
+    margin-left: 75px;
+    color: rgb(121, 142, 199);
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+    font-size: 37px;
+}
+.result>h3{
+    position: fixed;
+    margin-top: 29px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    margin-left: 64px;
+}
+.cParent{
+    height: 4px;
+    width: 250px;
+    position: fixed;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 19px;
+}
+.c1{
+    height: 4px;
+    width: 4px;
+    background-color: rgba(24, 31, 50, 1);
+    border: none;
+    border-radius: 50%;
+}
+
+.preStatus{
+    margin-top: 121px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    text-align:center
+}
+.status{
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: rgb(121, 142, 199);
+    font-size: 37px;
+    text-align:center
+}
+input:focus {
+    outline:none;
+}
+.develop{
+    height: 10px;
+    width: 207px;
+    position: fixed;
+    margin-top: 91vh;
+}
+.develop>p{
+    font-size: 10px;
+    text-align: center;
+}
